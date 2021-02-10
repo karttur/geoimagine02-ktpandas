@@ -5,17 +5,23 @@ Updated on 19 jan 2021
 @author: thomasgumbricht
 '''
 
+# Standard library imports
 
 from __future__ import division
-import os
-import sys
 
-import array as arr
+# Third party imports
+
 import numpy as np
-import support.karttur_dt as mj_dt
+
 import pandas as pd
-#import mj_pandas_numba_v73 as mj_pd_numba
+
 from scipy.stats import norm, mstats, stats
+
+# Package application imports
+
+import support.karttur_dt as mj_dt
+
+#import mj_pandas_numba_v73 as mj_pd_numba
 
 def MKtestNumba(x):
     return mj_pd_numba.MKtest(x)
