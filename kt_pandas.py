@@ -19,7 +19,7 @@ from scipy.stats import norm, mstats, stats
 
 # Package application imports
 
-import support.karttur_dt as mj_dt
+import geoimagine.support.karttur_dt as mj_dt
 
 #import mj_pandas_numba_v73 as mj_pd_numba
 
