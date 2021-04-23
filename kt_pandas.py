@@ -81,10 +81,10 @@ class PandasTS:
             self.centralday = 0
         elif timestep in ['8D','timespan-8D','seasonal-8D']:
             self.annualperiods = 46
-            self.centralday = 4
+            self.centralday = 0
         elif timestep in ['16D','timespan-16D','seasonal-16D']:
             self.annualperiods = 23
-            self.centralday = 8
+            self.centralday = 0
         elif timestep in ['A','AS','timespan-A','singleyear']:
             self.annualperiods = 1
             self.centralday = 0
